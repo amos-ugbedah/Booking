@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Information</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-white text-gray-900 overflow-x-hidden w-full">
+    <div class="max-w-[1440px] mx-auto p-0">
+      <header class="w-full h-[80px] bg-white border-b border-black flex justify-center items-center">
+        <!-- Nav-left -->
+        <p class="w-[137px] h-[36px] text-[24px] font-medium leading-[36px]">
+          <span class="text-blue-700">Stay</span>cation.
+        </p>
+      </header>
+
+      <main>
+        <!-- Numbers -->
+        <section class="flex items-center justify-center w-full mt-8">
+          <div class="relative flex items-center justify-between w-[275px] h-[60px]">
+            <!-- Circle 1 -->
+            <div class="flex items-center justify-center w-[60px] h-[60px] border border-[#E5E5E5] rounded-full bg-white z-10">
+              <span class="font-poppins text-[24px] font-medium leading-[36px] text-[#898989]">1</span>
+            </div>
+            
+            <!-- Circle 2 -->
+            <div class="flex items-center justify-center w-[60px] h-[60px] border border-[#E5E5E5] rounded-full bg-white z-10">
+              <span class="font-poppins text-[24px] font-medium leading-[36px] text-[#898989]">2</span>
+            </div>
+            
+            <!-- Circle 3 -->
+            <div class="flex items-center justify-center w-[60px] h-[60px] border border-[#E5E5E5] rounded-full bg-white z-10">
+              <span class="font-poppins text-[24px] font-medium leading-[36px] text-[#898989]">3</span>
+            </div>
+            
+            <!-- Connecting Line -->
+            <div class="absolute top-1/2 left-0 w-full border-t border-[#E5E5E5]"></div>
+          </div>
+        </section>
+
+        <!-- Booking Information -->
+        <section class="flex items-center justify-center w-full h-[97px] mt-8">
+          <div class="w-[436px] h-[97px] text-center">
+            <h3 class="w-[436px] h-[63px] text-[32px] md:text-[42px] font-medium leading-[1.2] text-[#152C5B]">Booking Information</h3>
+            <p class="w-[314px] h-[30px] text-[16px] md:text-[18px] font-light leading-[27px] text-[#B0B0B0] ml-20">Please fill up the blanks field below</p>
+          </div>
+        </section>
+
+        <!-- Property and Client Info -->
+        <section class="flex flex-col items-center mt-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-[1440px] px-8">
+            <!-- Property Info -->
+            <div class="relative w-full max-w-[264.07px] h-[258px] rounded-[15px] mx-auto">
+              <img src="./img/Cashville.svg" class="w-full h-[180px] rounded-[15px]" alt="Cashville">
+            
+              <div class="mt-2 flex justify-between items-center">
+                <div>
+                  <p class="w-full text-[20px] font-medium leading-[30px] text-left text-[#152C5B] p-1 rounded-[5px]">Cashville</p>
+                  <p class="w-full text-[15px] font-light leading-[22.5px] text-left text-[#152C5B] mt-1 p-1 rounded-[5px] whitespace-nowrap">Kemang, Indonesia</p>
+                </div>
+                <div>
+                  <p class="font-poppins text-[18px] font-light leading-[30.6px] text-left text-[#000000] w-[188px] h-[31px] mt-0.5">
+                    <span class="font-semibold">$480 USD</span> for 
+                    <span class="font-semibold">2 nights</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Client Info -->
+            <div class="flex flex-col items-start w-full max-w-[320px] mx-auto">
+              <!-- First Name -->
+              <div class="w-full">
+                <label class="font-poppins text-[18px] font-medium leading-[30.6px] text-left">First Name</label>
+                <input type="text" placeholder="Ihsan" class="w-full h-[51.56px] p-2 mt-1 border border-gray-300 rounded-tl-[4px] rounded-br-none focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+              </div>
+              
+              <!-- Last Name -->
+              <div class="w-full mt-4">
+                <label class="font-poppins text-[18px] font-medium leading-[30.6px] text-left">Last Name</label>
+                <input type="text" placeholder="Adi" class="w-full h-[51.56px] p-2 mt-1 border border-gray-300 rounded-tl-[4px] rounded-br-none focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+              </div>
+              
+              <!-- Email -->
+              <div class="w-full mt-4">
+                <label class="font-poppins text-[18px] font-medium leading-[30.6px] text-left">Email</label>
+                <input type="email" placeholder="bwa@class.com" class="w-full h-[51.56px] p-2 mt-1 border border-gray-300 rounded-tl-[4px] rounded-br-none focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+              </div>
+              
+              <!-- Phone Number -->
+              <div class="w-full mt-4">
+                <label class="font-poppins text-[18px] font-medium leading-[30.6px] text-left">Phone Number</label>
+                <input type="text" placeholder="0812735810231" class="w-full h-[51.56px] p-2 mt-1 border border-gray-300 rounded-tl-[4px] rounded-br-none focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Buttons -->
+        <section class="flex flex-col items-center mt-12 mb-4">
+          <!-- Button 1 -->
+           <a href="./payment.html">
+          <button class="w-[210px] h-[50px] bg-[#3252DF] rounded-[4px_0px_0px_0px] shadow-[0px_8px_15px_0px_rgba(50,82,223,0.3)] mb-4">
+            <span class="w-[151px] h-[31px] font-poppins text-[18px] font-medium leading-[30.6px] text-left text-[#FFFFFF] mt-4">Continue to Book</span>
+          </button>
+        </a>
+          
+          <!-- Button 2 -->
+           <a href="./index.html">
+          <button class="w-[210px] h-[50px] bg-[#cdcdce] rounded-[4px_0px_0px_0px] shadow-[0px_8px_15px_0px_rgba(50,82,223,0.3)]">
+            <span class="w-[151px] h-[31px] font-poppins text-[18px] font-medium leading-[30.6px] text-left text-[#F5f6f8] mt-4">Cancel</span>
+          </button>
+        </a>
+        </section>
+      </main>
+    </div>
+</body>
+</html>
